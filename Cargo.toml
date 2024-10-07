@@ -1,0 +1,10 @@
+[package]
+name = "horse_say"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+assert_cmd = "2.0.16"
+clap = { version = "4.5.19", features = ["derive"] }
+colored = "2.1.0"
